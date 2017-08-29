@@ -1,14 +1,14 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 
 namespace FizzBuzz.Library.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class FizzBuzzerTests
     {
-        [TestMethod]
-        public void TestMethod1()
+        [Test]
+        public void CheckNUnitFrameworkIsWorks()
         {
+            Assert.Pass();
         }
     }
 }
